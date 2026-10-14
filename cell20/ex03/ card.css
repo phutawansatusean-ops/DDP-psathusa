@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+header {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.information {
+    padding: 20px;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social svg {
+    width: 25px;
+    height: 25px;
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+}
+
+button {
+    padding: 10px 25px;
+    cursor: pointer;
+}
